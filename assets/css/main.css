@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #666666;
+  height: 1000px;
+}
+body header {
+  border-bottom: solid 5px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 14%;
+}
+body header .headerContainer {
+  z-index: 1;
+  width: 70%;
+  height: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+body header .headerContainer .leftHead h3 {
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}
+body header .headerContainer .rightHead nav ul {
+  display: flex;
+  gap: 20px;
+}
+body header .headerContainer .rightHead nav ul .home a {
+  color: #c8a97e;
+}
+body header .headerContainer .rightHead nav ul li {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 5px;
+}
+body header .headerContainer .rightHead nav ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+body header .headerContainer .rightHead nav ul .book {
+  background-color: #c8a97e;
+}
+body header .headerContainer .rightHead nav ul .book a {
+  padding: 20px;
+}
+body main .firstSec {
+  background-image: url(/assets/image/bg_2\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+body main .firstSec .opacity {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  opacity: 0.2;
+}
+body main .firstSec .firstSecName {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main .firstSec .firstSecName span {
+  font-size: 80px;
+  color: #c8a97e;
+  font-weight: normal;
+  font-family: "Great Vibes";
+  margin-bottom: 0;
+  line-height: 1;
+}
+body main .firstSec .firstSecName h2 {
+  text-transform: uppercase;
+  font-size: 60px;
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+}
+body main .firstSec .firstSecBottom {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+body main .firstSec .firstSecBottom div {
+  padding: 0px 0px 10px 30px;
+}
+body main .firstSec .firstSecBottom .firstSecBottom1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+body main .firstSec .firstSecBottom .firstSecBottom1 h3 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom1 p {
+  text-align: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom1 p span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+body main .firstSec .firstSecBottom .firstSecBottom1 img {
+  text-align: center;
+  width: 100px;
+  border-radius: 50%;
+}
+body main .firstSec .firstSecBottom .firstSecBottom2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom2 h3 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom2 p {
+  text-align: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom2 p span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+body main .firstSec .firstSecBottom .firstSecBottom2 img {
+  text-align: center;
+  width: 100px;
+  border-radius: 50%;
+}
+body main .firstSec .firstSecBottom .firstSecBottom3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom3 h3 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom3 p {
+  text-align: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom3 p span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+body main .firstSec .firstSecBottom .firstSecBottom3 img {
+  text-align: center;
+  width: 100px;
+  border-radius: 50%;
+}
+body main .firstSec .firstSecBottom .firstSecBottom4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom4 h3 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom4 p {
+  text-align: center;
+}
+body main .firstSec .firstSecBottom .firstSecBottom4 p span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+body main .firstSec .firstSecBottom .firstSecBottom4 img {
+  text-align: center;
+  width: 100px;
+  border-radius: 50%;
+}
+body main .secondSec {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .secondSec .secondSecContainer {
+  width: 88%;
+  height: 85%;
+}
+body main .secondSec .secondSecContainer .secondSecTop {
+  width: 100%;
+  height: 70%;
+  margin-top: 30px;
+  display: flex;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopImg {
+  height: 70%;
+  width: 60%;
+  display: flex;
+  gap: 20px;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopImg .imgLeft {
+  width: 50%;
+  background-image: url(/assets/image/about.jpg);
+  background-position: center;
+  background-size: 700px;
+  margin-bottom: 40px;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopImg .imgRight {
+  background-image: url(/assets/image/about-1\ \(1\).jpg);
+  width: 50%;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 40px;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopText {
+  height: 70%;
+  width: 40%;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopText {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopText .secondSecTopHead {
+  position: relative;
+  width: 200px;
+  font-size: 40px;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopText .secondSecTopHead span {
+  position: absolute;
+  top: -50px;
+  font-weight: normal;
+  font-size: 100px;
+  display: block;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.2);
+  color: #c8a97e;
+  line-height: 1;
+  font-family: "Great Vibes", cursive;
+  margin-top: 0;
+  z-index: -1;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopText .secondSecTopHead h2 {
+  color: black;
+  font-weight: 600;
+  line-height: 1.2;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopText p {
+  width: 500px;
+}
+body main .secondSec .secondSecContainer .secondSecTop .secondSecTopText a {
+  font-size: 40px;
+  font-weight: 700;
+  color: #c8a97e;
+}
+body main .thirdSec {
+  height: 700px;
+  width: 100%;
+}
+body main .thirdSec .thirdSecContainer .thirdSecTop {
+  position: relative;
+  text-align: center;
+}
+body main .thirdSec .thirdSecContainer .thirdSecTop span {
+  position: absolute;
+  top: -45px;
+  left: 0;
+  right: 0;
+  font-weight: normal;
+  font-size: 100px;
+  display: block;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.2);
+  color: #c8a97e;
+  line-height: 1;
+  font-family: "Great Vibes", cursive;
+  margin-top: 0;
+  z-index: -1;
+}
+body main .thirdSec .thirdSecContainer .thirdSecTop h2 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: black;
+}
+body main .thirdSec .thirdSecContainer .thirdSecBottom {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+body main .thirdSec .thirdSecContainer .thirdSecBottom div {
+  text-align: center;
+  width: 25%;
+  height: 300px;
+}
+body main .thirdSec .thirdSecContainer .thirdSecBottom div i {
+  font-size: 54px;
+  color: #c8a97e;
+  padding-bottom: 40px;
+}
+body main .thirdSec .thirdSecContainer .thirdSecBottom div h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #000000;
+}
+@media (max-width: 992px) {
+  body main .thirdSec {
+    flex-wrap: wrap;
+  }
+  body main .thirdSec .firstSec .firstSecBottom {
+    flex-wrap: wrap;
+  }
+  body main .thirdSec .firstSec .firstSecBottom body main .firstSec .firstSecBottom {
+    flex-wrap: wrap;
+  }
+}
